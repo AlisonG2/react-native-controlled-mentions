@@ -36,7 +36,8 @@
   },
   "peerDependencies": {
     "react": ">=16.0",
-    "react-native": ">=0.57"
+    "react-native": ">=0.57",
+    "react-native-gesture-handler": ">=2.0.0"
   },
   "dependencies": {
     "diff": "5.0.0",

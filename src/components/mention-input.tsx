@@ -2,10 +2,10 @@ import React, { FC, MutableRefObject, useMemo, useRef, useState } from 'react';
 import {
   NativeSyntheticEvent,
   Text,
-  TextInput,
   TextInputSelectionChangeEventData,
   View,
 } from 'react-native';
+import { TextInput } from 'react-native-gesture-handler';
 
 import { MentionInputProps, MentionPartType, Suggestion } from '../types';
 import {
